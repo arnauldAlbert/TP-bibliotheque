@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<title> Ma bibiothèque </title>
+		<meta charset="utf-8"/>
+		<meta author="Arnauld ALBERT"/>
+		<link href="biblio.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<a href="#" class="retour"> <img src="images/fleche.jpg" width="50px"/></a>
+		
+		<aside class="logo">
+		<ul>
+			<li> <a href="http://www.facebook.fr"><img src="images/facebook.jpg"/></a>
+			</li>
+			<li> <a href="http://www.facebook.fr"><img src="images/google.jpg"/></a>
+			</li>
+			<li> <a href="http://www.facebook.fr"><img src="images/twitter.jpg"/></a>
+			</li>
+			<li> <a href="http://www.facebook.fr"><img src="images/instagram.jpg"/></a>
+			</li>
+			<li> <a href="http://www.facebook.fr"><img src="images/snapchat.png"/></a>
+			</li>
+			</ul>
+		</aside>
+		<header class="entetesite"> 
+		<h1 class="fbandeau">  l'antre d'Arnauld </h1>
+			<p class="fbandeau"> une bibilothèque dédiée à la science Fiction et à la fantasy </p>
+		</header>
+		<div class="main">
+		<nav class="menu">
+			<a href="index.html"> accueil </a><a href="categorieSF.html"> catégories </a><a href="info.html"> infos </a><a href="#"> emprunt </a><a href="#"> ajout </a>
+		</nav>
+			
+			<section class="emprunt">
+				<h1> Formulaire d'emprunt </h1>
+                
+                <form action="traitement.html" method="GET" enctype="application/x-www-form-urlencoded">
+                  <ul>
+                   <li><label for="nom"> Nom: </label>
+                    <input type="text" name="nom"/></li> 
+                   <li>  <label for="prenom"> Prenom: </label>
+                    <input type="text" name="prenom"/></li>
+                    <li> <label for="dateemprunt"> Date d'emprunt: </label>
+                    <input type="date" name="dateemprunt" placeholder="jj/mm/aaaa"/></li>
+                    <li> <label for="livree"> Livre : </label>
+                    <select name="livree"> 
+                        <option value="A1"> 1984 (George Orwell)</option>
+                        <option value="A2"> Fondation (Isaac Asimov) </option>
+                        <option value="A3"> Les marchands d'armes (A Van Vogt)</option>
+                    </select></li>
+                    <li><input type="reset" value="Annuler"/> <input type="submit" value="Envoyer"/></li>
+                      </ul>
+                </form>
+			</section>
+			
+			<footer>
+			Site crée le 12/01/2018 par <a href="mailto:arnauld.albert@uha.fr"> <img src="images/mail.jpg"/> Arnauld ALBERT </a>
+		</footer>
+		</div>
+		
+	</body>
+</html>

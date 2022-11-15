@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,700|Quicksand:400,700|Raleway:300,300i,400,400i,700,800,900');
+
+.entetesite{
+	background-image: url(images/bandeau.jpg);
+	padding : 20px;
+}
+
+html, body{
+	margin : 0px;
+	padding : 0px;
+}
+
+
+.entetesite > p{
+	color : blue;
+	font-weight: 300;
+	font-style: italic;
+	padding : 5px;
+	
+}
+.fbandeau, .ctitre h1{
+	font-family : Raleway, sans-serif;
+	width : 400px;
+	text-align: center;
+	background-color: antiquewhite;
+	opacity: 0.8;
+	margin : 0px auto 0px;
+}
+
+
+
+.main{
+	width : 80%;
+	margin : auto;
+	background-color: beige;
+}
+
+body{
+	background-image: url(images/fond.jpg);
+	background-size: cover;
+	background-repeat: repeat-y;
+}
+
+.menu a{
+	box-sizing: border-box;
+	display : inline-block;
+	width : 20% ;
+	margin : 0px;
+	text-align: center;
+	background-color: cornflowerblue;
+	font-family: Dosis, Raleway, sans-serif;
+	font-weight: 500;
+	border: 1px solid black;
+	padding : 10px 5px;
+}
+
+.menu a, nav a:visited{
+	color : blueviolet;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	background-color: coral;
+}
+
+
+.sprinc{
+	width : 95%;
+	margin : auto;
+}
+
+.sprinc header {
+	background-color: burlywood;
+	font-family: Dosis, Raleway, sans-serif;
+	color : darkblue;
+	padding : 5px;
+	text-align: center;
+	width : 50%;
+	margin : 15px auto;
+}
+
+.sprinc header h3{
+	font-size: 1.2em;	
+	margin: 2px;
+}
+.sprinc header p{
+	margin : 2px;
+}
+
+.livre{
+	display : inline-block;
+	box-sizing: border-box;
+	margin : 0px;
+	width : 32%;
+	padding : 5px;
+	vertical-align: top;
+}
+.livre > a > img{
+	width : 50%;
+}
+
+.livreaside{
+	float: right;
+	width : 48%;
+	
+}
+
+.livreaside img{
+	width : 80%;	
+}
+
+.livreaside ul{
+	margin : 0px 5px;
+	list-style-type: none;
+	padding : 0px 2px;
+	font-family: Quicksand, Dosis, sans-serif;
+}
+
+
+.titreaside{
+	font-weight: 700;
+	color : antiquewhite;
+	background-color: darkblue;
+	text-align: center;
+	padding : 2px;
+}
+
+.dateaside{
+	font-family: Dosis, sans-serif;
+	font-style : italic;
+	color: dimgrey;
+}
+
+
+.main footer{
+	text-align: center;
+	font-family: Raleway;
+}
+.main footer img{
+	width : 1.5em;
+}
+.main footer a{
+	text-decoration: none;
+}
+
+.main a, .main a:visited{
+	color : blueviolet;
+}
+
+.retour{
+	position : fixed;
+	bottom : 30px;
+	right : 30px;
+}
+
+.logo{
+	width : 54px;
+	position : fixed;
+	top : 200px;
+	left :10px;
+	text-align: center;
+}
+.logo ul{
+	list-style-type: none;
+	background-color: white;
+	padding: 0px;
+	margin: px;
+}
+
+.logo img{
+	width : 50px;
+}
+
+.livrep > h1, .emprunt > h1{
+	text-align: center;
+	font-size: 2.5em;
+	color : brown;
+	font-family: Raleway, sans-serif;
+	font-weight: 900;
+	box-sizing: border-box;
+	width : 40%;
+	margin : 20px auto;
+	background-color: darksalmon;
+	box-shadow : 5px 5px lightgrey;
+}
+
+.livrep > img{
+	box-sizing: border-box;
+	width : 40%;
+	float : left;
+	margin-left : 20px;
+}
+
+.livrep > aside{
+	width : 50%;
+	margin-left : 45%;
+	box-sizing: border-box;
+}
+
+.livrep ul, .categorie ul, .emprunt ul{
+	list-style-type: none;
+	padding : 0px;
+}
+.livrep aside li, .emprunt label{
+	margin :15px 5%	;
+	font-family: QuickSand, sans-serif;
+	color: dimgrey;
+}
+.livrep li span {
+	font-weight: 700;
+	color : darkblue;
+	display : table-cell;
+}
+
+.resume{
+	width : 50%;
+	margin-left : 45%;
+}
+
+.resume h3, .avis h3, .livrep aside h3, .boutique h3 .categorie h3{
+	background-color: burlywood;
+	font-family: Dosis, Raleway, sans-serif;
+	padding : 2px 10px;
+}
+
+.resume p, .avis p, .avis header{
+	font-family: Dosis, sans-serif;
+	color:dimgrey;
+}
+.avis{
+	clear : both;
+	padding : 10px;
+}
+
+.avis header{
+	font-style : italic;
+	font-size : 1.5em;
+	font-weight: 700;
+}
+
+.avis footer{
+	text-align: right;
+	font-weight: 300;
+	color : dodgerblue;
+}
+
+.boutique, .categorie , .categorie ul, .emprunt ul{
+	box-sizing: border-box;
+	width : 70%;
+	margin : 15px auto;
+}
+
+.boutique a{
+	display : table-cell;
+	width: 25%;
+	
+	text-decoration: none;
+	color : darkblue;
+	
+}
+.boutique a:visited{
+	color:darkblue;
+}
+
+.boutique img{
+	height : 50px;
+	display : block;
+}
+
+
+.categorie img {
+	height : 100px;
+}
+.categorie ul li{
+	margin : 5px;
+	height : 120px;
+	padding : 10px;
+}
+.categorie ul li a, .categorie ul li a:visited{
+	text-decoration: none;
+	color : dodgerblue;
+}
+.categorie ul li p{
+	padding : 40px;
+	width : 90%;
+	text-decoration: none;
+	font-family: Raleway, sans-serif;
+}
+.categorie ul li p span {
+	font-weight: 700;
+}
+
+.categorie ul li:nth-child(2n){
+	background-color: lightgray;
+}
+
+.categorie ul li:nth-child(2n) img{
+	float : right;
+}
+.categorie ul li:nth-child(2n+1) img{
+	float : left;
+}
+.categorie ul li:nth-child(2n+1) p{
+	margin-left : 100px;
+}
+.ctitre{
+	box-sizing: border-box;
+	background-image: url(images/SF.jpg);
+	height : 200px;
+	background-size: contain;
+	padding : 50px;
+}
+.ctitre h1{
+	padding : calc(10% - 1em) 0px;
+}
+
+
+.emprunt label{
+    display : inline-block;
+    width : 15%;
+}
+
+.emprunt ul li:last-child{
+    text-align: right;
+    margin : 20px 15%;
+   
+}
+
+
+
+
+
+
+
